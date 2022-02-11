@@ -1,0 +1,36 @@
+Aufgabenstellung
+
+Erstelle einen Rechner, mit dem du aus dem Rechnungsbetrag folgende Sachen machen kannst:
+
+das Trinkgeld berechnen
+Je nach Zufriedenheit mit dem Service
+Schlechter Service: 2% Trinkgeld
+Mittlerer Service: 10% Trinkgeld
+Super Service: 20% Trinkgeld
+
+das Geld berechnen, das jeder in deiner Gruppe zahlen muss
+den Gesamtbetrag aus Rechnungsbetrag + Trinkgeld berechnen
+
+
+Pseudocode:
+
+In einer Funktion sollen 3 werte berechnet werden.
+
+a = Rechnungsbetrag
+b = Personenanzahl
+
+a und b sollen beim Aufruf der function übergeben werden.
+
+Es sind 3 values für die Servicequalität vordefiniert.
+
+Die Service values sollen beim Aufruf der Funktion übergeben werden.
+
+x, y, z sollen mittels a, b und dem Service Valueim errechnet 
+unf im HTML angezeigt werden.
+
+x = (a * quality.value) Trinkgeldhöhe
+y = (a + x) Gesamtbetrag
+z = (y / b) Betrag pro Person
+
+(Wird keine der drei Servie values gewählt gewählt: else/default)
+
